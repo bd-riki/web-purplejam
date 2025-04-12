@@ -1,0 +1,12 @@
+.main-content
+{
+    width: 100vw;
+    margin: 0;
+}
+
+.navbar-spacer
+{
+    /* border: 1px solid turquoise; */   
+    height: 7vh;
+}
+

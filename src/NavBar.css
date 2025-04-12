@@ -1,0 +1,136 @@
+.navbar
+{
+    /* border: 1px solid white; */
+
+    min-width: 100vw;
+    height: 7vh;
+    
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    padding-left: 1%;
+    place-items: center;
+
+    background-color: #32243C;
+}
+
+.company-title
+{
+    /* border: 1px solid red; */
+    min-width: 40vw;
+    max-height: 100%;
+    
+    font-family: "Single Day", cursive;
+    
+}
+
+.company-title a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul
+{
+    /* border: 1px solid magenta; */
+    min-width: 27vw;
+    height:100%;
+    margin-left: 17vw;
+    
+    font-family: "Life Savers", serif;
+    list-style-type: none;
+    font-weight: bolder;
+    padding-top: 2vw;
+}
+
+.navbar li
+{ 
+    /* border: 1px solid greenyellow; */
+    display: inline;
+
+    height: 1%;
+
+    padding: 0.25vw 1.5vw .5vw 1.5vw;
+
+    text-align: center;
+    font-size: 2vw;
+    color:hsl(0, 0%, 100%);
+}
+
+.navbar li a
+{
+    text-decoration: none;
+}
+
+.navbar li a:visited
+{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+}
+
+.navbar p
+{
+    /* border: 1px solid yellow; */
+    
+    padding: 0;
+    margin: 0;
+}
+
+#mini-menu
+{
+    max-width: 8vw;
+    max-height: 8vh;
+
+    margin: 45vw;
+
+    place-items: center;
+}
+
+#navi-icon
+{
+    /* border: 4px solid yellow; */
+    max-width: 7vw;
+    max-height: 7vw;   
+}
+
+/* RESPONSIVE ELEMENTS HERE */
+/* WIDER WINDOW / LANDSCAPE ORIENTATION */
+@media screen and (min-width:601px)
+{
+    .navbar ul
+    {
+        display: block;
+    }
+
+    #mini-menu
+    {
+        display: none;
+    }
+
+    .company-title
+    {
+        font-size: 3vw;
+    }
+}
+
+
+/* NARROW WINDOW / PORTRAIT ORIENTATION */
+@media screen and (max-width:600px)
+{
+    .navbar ul
+    {
+        display: none;
+    }
+
+    #mini-menu
+    {
+        display:block;
+    }
+
+    .company-title
+    {
+        font-size: 6vw;
+    }
+}
+
+

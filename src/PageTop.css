@@ -1,0 +1,133 @@
+.top-banner
+{
+    /* border: 1px solid magenta; */
+
+    height: 95vh;
+    width: 100%;
+
+    place-items: center;
+
+    background-image: url(.\assets\bgcafe.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    background-position: 75% 75%;
+}
+
+.captions
+{    
+    /* border: 1px solid turquoise; */
+    
+    min-width: 100%;
+
+    position:absolute;
+    top: 30vh;
+    
+    background-color: hsla(0, 0%, 0%, 0.65);
+
+    text-align: center;
+}
+
+/* .captions h1
+{
+    /* border: 1px solid yellow;
+    
+}  
+*/
+
+
+.captions h4
+{
+    /* border: 1px solid turquoise; */
+    
+    min-height: 2rem;
+    
+    padding:0;
+    margin-top: .2rem;
+
+    /* line-height: 1rem; */
+    overflow: auto;
+    
+    
+}
+
+.captions button
+{
+    
+    margin: 0px;
+    padding: .2rem .4rem .2rem .4rem;
+    background-color: hsla(0, 0%, 0%, 0);
+
+    color:white;
+}
+
+
+/* RESPONSIVE ELEMENTS HERE */ 
+/* WIDER WINDOW / LANDSCAPE ORIENTATION */
+@media screen and (min-width:601px)
+{
+    .captions
+    {    
+        height: 40vh;
+        padding: 3% 0 3% 0;
+    }
+
+    .captions h1 
+    {
+        margin: 0;
+        line-height: 8vw;
+        font-size: 5vw;
+    }
+    
+    .captions h4
+    {
+        /* line-height: 1rem; */
+        font-size: 1.5vw;
+    }
+
+    .captions button
+    {
+        width: 25vw;
+        border: .3vw solid white;
+        border-radius: 3px;
+        
+        font-size: 2vw;
+    }
+}
+
+/* NARROW WINDOW / PORTRAIT ORIENTATION */
+@media screen and (max-width:600px)
+{
+    .captions
+    {    
+        padding: 9% 0 9% 0;
+    }
+    
+    .captions h1 
+    {
+        margin: 0;
+
+        font-size: 9vw;
+        line-height: 3.4rem;
+    }
+    
+    .captions h4
+    {
+        min-height: 2rem;
+        font-size: 3vw;
+    }
+
+    .captions button
+    {
+        width: 50vw;
+        height: 8vw;
+        border: .8vw solid white;
+        border-radius: 3px;
+       
+        font-size: 4vw;
+    }
+    
+}
+
+
+

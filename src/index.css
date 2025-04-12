@@ -1,0 +1,23 @@
+:root 
+{
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+body
+{
+  min-height: 100vh;
+
+  margin: 0px;
+  padding: 0px;
+
+  display: flex;
+  flex-direction: row;
+
+  background-color: hwb(0 0% 100%);
+}
+
+h1, h4, button
+{
+  font-family: "Libre Caslon Text", serif;
+}
