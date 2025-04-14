@@ -1,6 +1,6 @@
 .menu-item
 {
-    border: 1px solid aqua;
+    border: 1px solid magenta;
     max-width:40vw;
 
     display: flex;
@@ -33,7 +33,7 @@
 .price-container
 {
     min-width: 8vw;
-    border: 1px solid red;
+    border: 1px solid aqua;
     text-align: center;
 }
 
