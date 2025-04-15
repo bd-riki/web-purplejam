@@ -1,5 +1,5 @@
-import { useState } from "react"
 import './MenuItem.css'
+import { useState } from "react"
 
 function MenuItem(props) {
     const [itemName, setItemName] = useState("Food");
@@ -8,14 +8,19 @@ function MenuItem(props) {
 
     return (
       <div className="menu-item">
-        <div className="item-container">
-            <h2 className="menu-item-name">{props.itemName}</h2>
-            <p className="menu-item-desc"><i>{props.itemDesc}</i></p>
-        </div>
-        <div className="price-container">
-            <p className="menu-item-price">USD {(props.itemPrice).toFixed(2)}</p>
-        </div>
-        
+        <table>
+          <tr>
+            <td className="item-container">
+              <h2 className="menu-item-name">{props.itemName}</h2>
+              <p className="menu-item-desc"><i>{props.itemDesc}</i></p>
+            </td>
+            <td>
+              <div className="price-container">
+                <p className="menu-item-price">USD {(props.itemPrice).toFixed(2)}</p>
+              </div> 
+            </td>
+          </tr>
+        </table>
       </div>
     )
   }

@@ -1,39 +1,82 @@
 .menu-item
 {
-    border: 1px solid magenta;
-    max-width:40vw;
+    /* border: 1px solid magenta; */
 
     display: flex;
     flex-direction: row;
 
     color: #483257;
-    line-height: 0;
 }
 
-.item-container
-{
-    border: 1px solid yellow;
-    
-    min-width: 30vw;
-    min-height: 8vw;
-    line-height: 2.3vw;
 
-    display:flex;
-    flex-direction: column;
-}
 
 .menu-item-name
 {
+    /* border: 1px solid aqua; */
+    
     margin: 0 1vw 0 1vw;
     font-family: "Solitreo", cursive;
-    font-size: 2vw;
-    line-height: 0;
+}
+
+.menu-item-desc
+{
+    margin: 0 1vw 0 1vw;
 }
 
 .price-container
 {
     min-width: 8vw;
-    border: 1px solid aqua;
     text-align: center;
+}
+
+/* RESPONSIVE ELEMENTS HERE */
+/* WIDER WINDOW / LANDSCAPE ORIENTATION */
+@media screen and (min-width:601px)
+{
+    .item-container
+    {
+        width:30vw;
+    }
+    
+    .menu-item
+    {
+        max-width:40vw;
+    }
+
+    .menu-item-name
+    {
+        font-size: 2vw;
+    }
+
+    .menu-item-desc
+    {
+        font-size: 1.25vw;
+    }
+
+}
+
+
+/* NARROW WINDOW / PORTRAIT ORIENTATION */
+@media screen and (max-width:600px)
+{
+    .item-container
+    {
+        width:55vw;
+    }
+
+    .menu-item
+    {
+        max-width:80vw;
+    }
+
+    .menu-item-name
+    {
+        font-size: 4vw;
+    }
+
+    .menu-item-desc
+    {
+        font-size: 2.5vw;
+    }
 }
 
