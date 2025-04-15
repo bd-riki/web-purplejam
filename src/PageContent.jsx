@@ -1,6 +1,7 @@
 import './PageMain.css'
 import './PageTop.css'
 import './PageMenu.css'
+import './PageAbout.css'
 import MenuLists from './MenuLists'
 
 function PageContent() {
@@ -8,6 +9,8 @@ function PageContent() {
       <>
         <div className="main-content">
           <div className="navbar-spacer"></div>
+          
+          {/* TOP SECTION */}
           <div className="top-banner">
             <div className="captions">
                 <h1 className="caption-main">Your lavender patch</h1>
@@ -17,6 +20,7 @@ function PageContent() {
             </div>
           </div>    
           
+          {/* MENU SECTION */}
           <div className="section-menu" id="page-menu">
             <div className="menu-banner">
               <div className="txt-menu-banner">
@@ -26,11 +30,17 @@ function PageContent() {
                 </div>
               </div>
             </div>
-            
             <div className="list-container">
               <MenuLists/>
             </div>
           </div>
+          {/* ABOUT SECTION */}
+          {/* <div className="section-about">
+            <h1>A Nice Food Cafe in Manila...</h1>
+          </div> */}
+          {/* CONTACT SECTION */}
+        
+        
         </div>
       </>
       

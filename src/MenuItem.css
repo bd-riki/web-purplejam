@@ -7,8 +7,12 @@
 
     color: #483257;
 }
-
-
+/* 
+.item-container
+{
+    border: 1px solid magenta;
+}
+ */
 
 .menu-item-name
 {
@@ -25,8 +29,8 @@
 
 .price-container
 {
-    min-width: 8vw;
-    text-align: center;
+    min-width: 40%;
+    text-align: right;
 }
 
 /* RESPONSIVE ELEMENTS HERE */
@@ -35,9 +39,9 @@
 {
     .item-container
     {
-        width:30vw;
+        width:25vw;
     }
-    
+
     .menu-item
     {
         max-width:40vw;
@@ -51,6 +55,13 @@
     .menu-item-desc
     {
         font-size: 1.25vw;
+    }
+
+
+    .price-container
+    {
+        font-size: 2vw;
+        font-weight: bold;
     }
 
 }
@@ -77,6 +88,11 @@
     .menu-item-desc
     {
         font-size: 2.5vw;
+    }
+
+    .price-container
+    {
+        font-size: 4vw;
     }
 }
 
