@@ -13,7 +13,7 @@
     
     width: 100vw;
 
-    background-image: url(.\assets\bgsandwich.jpg);
+    background-image: url(/src/assets/bgsandwich.jpg);
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size: cover;

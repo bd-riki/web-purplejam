@@ -1,4 +1,4 @@
-import MenuItem from './MenuItem'
+import MenuItem from './item/MenuItem'
 
 function MenuLists(props) {
 
@@ -22,7 +22,7 @@ function MenuLists(props) {
                 />
                 <MenuItem 
                   itemName="Iced Tea (Apple/Lemon)"
-                  itemDesc="Black tea of your chosen flavor refrigerated. Perfect with friends."
+                  itemDesc="Flavored black tea, refrigerated. Perfect with friends."
                   itemPrice={4.00}
                 />
                 <MenuItem 
