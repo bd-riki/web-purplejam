@@ -1,24 +1,16 @@
 import './PageMain.css'
-import './PageTop.css'
+import './top/PageTop.css'
 import './PageMenu.css'
 import './PageAbout.css'
 import MenuLists from './MenuLists'
+import PageTop from './top/PageTop'
 
 function PageContent() {
     return (
       <>
         <div className="main-content">
           <div className="navbar-spacer"></div>
-          
-          {/* TOP SECTION */}
-          <div className="top-banner">
-            <div className="captions">
-                <h1 className="caption-main">Your lavender patch</h1>
-                <h1 className="caption-main">from the daily bustles.</h1>    
-                <h4 id="caption-main">Fresh from the jar, straight to your cup.</h4>
-                <button className="btn-bordered">CHECK OUR MENU</button>  
-            </div>
-          </div>    
+          <PageTop/>    
           
           {/* MENU SECTION */}
           <div className="section-menu" id="page-menu">

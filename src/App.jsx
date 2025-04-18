@@ -1,10 +1,9 @@
 import './App.css'
+import NavBar from './scripts/navbar/NavBar'
+import PageContent from './scripts/pagecontent/PageContent'
 import { useState } from 'react'
-import NavBar from './NavBar'
-import PageContent from './PageContent'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

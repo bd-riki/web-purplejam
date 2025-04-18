@@ -1,13 +1,10 @@
 .top-banner
 {
-    /* border: 1px solid magenta; */
-
     height: 95vh;
     width: 100%;
-
     place-items: center;
 
-    background-image: url(.\assets\bgcafe.jpg);
+    background-image: url(/src/assets/bgcafe.jpg);
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size: cover;
@@ -16,44 +13,24 @@
 
 .captions
 {    
-    /* border: 1px solid turquoise; */
-    
     min-width: 100%;
-
     position:absolute;
     top: 30vh;
     
     background-color: hsla(0, 0%, 0%, 0.65);
-
     text-align: center;
 }
 
-/* .captions h1
-{
-    /* border: 1px solid yellow;
-    
-}  
-*/
-
-
 .captions h4
 {
-    /* border: 1px solid turquoise; */
-    
     min-height: 2rem;
-    
-    padding:0;
     margin-top: .2rem;
-
-    /* line-height: 1rem; */
+    padding:0;
     overflow: auto;
-    
-    
 }
 
 .captions button
 {
-    
     margin: 0px;
     padding: .2rem .4rem .2rem .4rem;
     background-color: hsla(0, 0%, 0%, 0);
@@ -75,13 +52,12 @@
     .captions h1 
     {
         margin: 0;
-        line-height: 8vw;
         font-size: 5vw;
+        line-height: 8vw;
     }
     
     .captions h4
     {
-        /* line-height: 1rem; */
         font-size: 1.5vw;
     }
 
@@ -90,7 +66,6 @@
         width: 25vw;
         border: .3vw solid white;
         border-radius: 3px;
-        
         font-size: 2vw;
     }
 }
@@ -106,7 +81,6 @@
     .captions h1 
     {
         margin: 0;
-
         font-size: 9vw;
         line-height: 3.4rem;
     }
@@ -121,9 +95,9 @@
     {
         width: 50vw;
         height: 8vw;
+        
         border: .8vw solid white;
         border-radius: 3px;
-       
         font-size: 4vw;
     }
     
