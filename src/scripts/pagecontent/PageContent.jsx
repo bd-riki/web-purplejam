@@ -1,8 +1,8 @@
-import './PageMain.css'
-import './menu/PageMenu.css'
-import './PageAbout.css'
 import PageTop from './top/PageTop'
 import PageMenu from './menu/PageMenu'
+import './PageContent.css'
+import './about/PageAbout.css'
+
 
 function PageContent() {
     return (

@@ -1,30 +1,25 @@
 .section-menu
 {
-    /* border: 1px solid greenyellow; */
     width: 100vw;
-    height: 100vh;
-    
     background-color: hsl(275, 18%, 13%);
 }
 
-.menu-banner
+.banner-bg
 {
-    /* border: 1px solid red; */
-    
+    height: 37vh;
     width: 100vw;
+    place-items: center;
 
     background-image: url(/src/assets/bgsandwich.jpg);
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size: cover;
     background-position: 75% 75%;
-
-    place-items: center;
 }
 
-.txt-menu-banner
+.banner-alpha
 {
-    /* border: 1px solid turquoise; */
+    /* border: 1px solid rgb(51, 255, 0); */
     
     height: 100%;
     width: 100%;
@@ -33,16 +28,19 @@
     text-align: center;
 }
 
+.txt-menu-container
+{
+    text-align: center;
+    line-height: 2vh;
+}
 
 .txt-menu-container h4
 {
-    /* border: 1px solid turquoise; */
     font-family: "Life Savers", serif;
 }
 
 .list-container
 {
-    /* border: 1px solid aqua; */
     max-height: 100%;
     max-width: 100vw;
     padding-top: 2vw;
@@ -62,48 +60,50 @@
     
     background-color: hsl(275, 18%, 79%);
 }
+
 /* RESPONSIVE ELEMENTS HERE */
-/* WIDER WINDOW / LANDSCAPE ORIENTATION */
+/* WIDE WINDOW / LANDSCAPE ORIENTATION */
 @media screen and (min-width:601px)
 {
-    
+    .section-menu
+    {
+        height: 107vh;
+    }
+
+    .txt-menu-container
+    {
+        height: 15vh;
+        margin-top: 15vh;
+    }
+
     .txt-menu-container h4
     {
         font-size: 2vw;
     }
+}
 
-    .menu-banner
+/* NARROW WINDOW / PORTRAIT ORIENTATION */
+@media screen and (max-width:600px)
+{
+    .section-menu
     {
-        height: 22vw;
+        height: 137vh;
     }
 
     .txt-menu-container
     {
-        padding-top: 5vw
+        height: 13vh;
+        margin-top: 15vh;
     }
-}
 
-@media screen and (max-width:600px)
-{
     .txt-menu-container h1
     {
-        font-size: 8vw;
+        font-size: 6vw;
     }
 
     .txt-menu-container h4
     {
-        font-size: 4vw;
-    }
-
-
-    .menu-banner
-    {
-        height: 60vw;
-    }
-
-    .txt-menu-container
-    {
-        padding-top: 20vw
+        font-size: 3.5vw;
     }
 
     .list-container
@@ -118,6 +118,7 @@
     .menu-list
     {
         min-width: 80vw;
-        
     }
+
+    
 }

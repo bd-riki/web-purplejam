@@ -81,12 +81,18 @@
     .navbar ul
     {
         display: block;
+        margin-left: 25vw;
     }
 
-    #mini-menu
+    .navbar li
+    {
+        font-size: 2vw;
+    }
+
+    /* #mini-menu
     {
         display: none;
-    }
+    } */
 
     .company-title
     {
@@ -101,17 +107,23 @@
 {
     .navbar ul
     {
-        display: none;
+        display: block;
+        margin-left: 0;
     }
 
-    #mini-menu
+    .navbar li
+    {
+        font-size: 3vw;
+    }
+
+    /* #mini-menu
     {
         display:block;
-    }
+    } */
 
     .company-title
     {
-        min-width: 40vw;
+        min-width: 37vw;
         font-size: 5vw;
     }
 }
