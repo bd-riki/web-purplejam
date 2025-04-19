@@ -1,3 +1,8 @@
+import jambread from '/src/assets/jambread.jpg'
+import sPizza from '/src/assets/s_pizza.jpg'
+import jammin from '/src/assets/jammin.jpg'
+import bday from '/src/assets/bday.jpg'
+
 function PageAbout() {
     return(
         <>
@@ -10,10 +15,10 @@ function PageAbout() {
                 <div className="ab-container">
                     <div id="pic-collage1">
                         <div className="pic-container">
-                            <img src="src/assets/jambread.jpg" alt="Purplejam Cafe" id="jambread-wide"/>
+                            <img src={jambread} alt="Purplejam Cafe" id="jambread-wide"/>
                         </div>
                         <div className="pic-container">
-                            <img src="src/assets/s_pizza.jpg" alt="Purplejam Cafe" id="s_pizza"/>
+                            <img src={sPizza} alt="Purplejam Cafe" id="s_pizza"/>
                         </div>
                     </div>
                     <h3>A Nice Food Cafe in Manila...</h3>
@@ -25,10 +30,10 @@ function PageAbout() {
                 <div className="ab-container">
                     <div id="pic-collage2">
                         <div className="pic-container">
-                            <img src="src/assets/jammin.jpg" alt="Purplejam Cafe" id="jammin"/>
+                            <img src={jammin} alt="Purplejam Cafe" id="jammin"/>
                         </div>
                         <div className="pic-container">
-                            <img src="src/assets/bday.jpg" alt="Purplejam Cafe" id="bday"/>
+                            <img src={bday} alt="Purplejam Cafe" id="bday"/>
                         </div>
                     </div>
                     <p className="ab-paragraph">Purplejam Cafe is also host to local singing talents, Be sure to check out, listen and support our gifted artists. The cafe is also open for reservations should people need a venue to hold their parties and important gatherings.</p>
