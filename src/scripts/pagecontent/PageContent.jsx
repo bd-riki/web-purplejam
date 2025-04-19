@@ -1,5 +1,6 @@
 import PageTop from './top/PageTop'
 import PageMenu from './menu/PageMenu'
+import PageAbout from './about/PageAbout'
 import './PageContent.css'
 import './about/PageAbout.css'
 
@@ -11,11 +12,7 @@ function PageContent() {
           <div className="navbar-spacer"></div>
           <PageTop/>    
           <PageMenu/>
-      
-          {/* ABOUT SECTION */}
-          {/* <div className="section-about">
-            <h1>A Nice Food Cafe in Manila...</h1>
-          </div> */}
+          <PageAbout/>
           {/* CONTACT SECTION */}
         
         </div>
