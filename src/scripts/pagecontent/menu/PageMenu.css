@@ -67,7 +67,7 @@
 {
     .section-menu
     {
-        height: 107vh;
+        height: 82vw;
     }
 
     .txt-menu-container
@@ -87,7 +87,7 @@
 {
     .section-menu
     {
-        height: 137vh;
+        height: 222vw;
     }
 
     .txt-menu-container
@@ -109,16 +109,17 @@
     .list-container
     {
         max-width: 100vw;
+        min-height: 57vw;
         padding: 6vw;
 
         flex-direction: column;
         place-items: center;
+
+        overflow: hidden;
     }
 
     .menu-list
     {
         min-width: 80vw;
     }
-
-    
 }
