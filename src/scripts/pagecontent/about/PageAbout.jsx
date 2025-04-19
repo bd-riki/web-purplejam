@@ -31,7 +31,7 @@ function PageAbout() {
                             <img src="src/assets/bday.jpg" alt="Purplejam Cafe" id="bday"/>
                         </div>
                     </div>
-                    <p>Purplejam Cafe is also host to local singing talents, Be sure to check out, listen and support our gifted artists. The cafe is also open for reservations should people need a venue to hold their parties and important gatherings.</p>
+                    <p className="ab-paragraph">Purplejam Cafe is also host to local singing talents, Be sure to check out, listen and support our gifted artists. The cafe is also open for reservations should people need a venue to hold their parties and important gatherings.</p>
                 </div>
                 
             </div>        
