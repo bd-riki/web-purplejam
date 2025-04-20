@@ -1,0 +1,19 @@
+.footer
+{
+    border: solid 1px orange;
+    
+    min-height: 20vh;
+    min-width: 100vw;
+}
+
+.footer-container
+{
+    padding: 0 2vw 0 2vw;
+    font-size: 1.25vw;
+    text-align: center;
+}
+
+.author
+{
+    font-size: 1vw;
+}

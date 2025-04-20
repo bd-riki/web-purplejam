@@ -2,6 +2,7 @@ import jambread from '/src/assets/jambread.jpg'
 import sPizza from '/src/assets/s_pizza.jpg'
 import jammin from '/src/assets/jammin.jpg'
 import bday from '/src/assets/bday.jpg'
+import './PageAbout.css'
 
 function PageAbout() {
     return(
